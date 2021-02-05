@@ -22,7 +22,7 @@ const Home = (props) => {
                 <a href="/" className={styles.downloadLink}>
                   <img src="/assets/images/chrome_logo.png" alt="screenshot" />
                 </a>
-                <a href="/" className={styles.downloadLink}>
+                <a href="https://microsoftedge.microsoft.com/addons/detail/stories/dmfflnlaaalkihcikmmbdacijlfjkklc" target="_blank" className={styles.downloadLink}>
                   <img src="/assets/images/edge_logo.png" alt="screenshot" />
                 </a>
               </div>
