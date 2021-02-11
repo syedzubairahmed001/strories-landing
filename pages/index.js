@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Home from "../containers/Home/Home.container";
+import Layout from "../hoc/Layout/Layout.hoc";
 
 export default function Main() {
   return (
@@ -8,10 +9,11 @@ export default function Main() {
         <title>Stories in browser</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main>
-        <Home />
-      </main>
+      <Layout>
+        <main>
+          <Home />
+        </main>
+      </Layout>
 
       <style jsx global>{`
         html,
