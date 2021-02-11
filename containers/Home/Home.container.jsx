@@ -19,7 +19,7 @@ const Home = (props) => {
             <div className={styles.downloadWrapper}>
               <p className={styles.downloadHeading}>Get it for:</p>
               <div className={styles.downloadSection}>
-                <a href="/" className={styles.downloadLink}>
+                <a href="https://chrome.google.com/webstore/detail/stories/cpflpimmgoikimlpdpihhecigmgehagn/related?hl=en-GB" target="_blank" className={styles.downloadLink}>
                   <img src="/assets/images/chrome_logo.png" alt="screenshot" />
                 </a>
                 <a href="https://microsoftedge.microsoft.com/addons/detail/stories/dmfflnlaaalkihcikmmbdacijlfjkklc" target="_blank" className={styles.downloadLink}>
