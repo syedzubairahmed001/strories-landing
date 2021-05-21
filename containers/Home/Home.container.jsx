@@ -39,7 +39,7 @@ const Home = (props) => {
             <div>
               <p className={styles.para1}>
                 Created with ❤️ by{" "}
-                <a href="https://twitter.com/_syed_zubair" target="_blank">
+                <a href="https://twitter.com/zubairself" target="_blank">
                   Syed Zubair Ahmed
                 </a>
               </p>
