@@ -6,7 +6,7 @@ export default function Main() {
   return (
     <div className="container">
       <Head>
-        <title>Stories in browser</title>
+        <title>Browser Stories</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>

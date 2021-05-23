@@ -23,6 +23,8 @@ export default function MyApp(props) {
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
         />
+        <meta name="google-site-verification" content="VHBliz1D6fZ5GxgWIzxU4IdbHnBPVKmWLDDQC94ZunU" />
+        <meta name="description" content="Now post stories in browser, your favorite stories feature now in browser, available for chrome and edge " />
       </Head>
       <Component {...pageProps} />
     </React.Fragment>
