@@ -1,7 +1,7 @@
 .container {
   width: 100%;
   max-height: 100vh;
-  height: 500px;
+  min-height: 500px;
   display: flex;
   /* align-items: center; */
   position: relative;
@@ -10,13 +10,22 @@
 .showcaseImage {
   background-image: url("/assets/images/featured_images/stories_tiles.png");
   width: 50%;
-  height: 100%;
+  max-height: 100vh;
+  min-height: 500px;
   background-repeat: no-repeat;
   background-position: center;
 }
+.storiesTextSection {
+    width: 60%;
+  }
 
 @media only screen and (max-width: 500px) {
   .showcaseImage {
     width: 100%;
   }
+  .storiesTextSection {
+    width: 100%;
+  }
 }
+
+
