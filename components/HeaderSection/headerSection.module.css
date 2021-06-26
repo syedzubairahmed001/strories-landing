@@ -1,0 +1,62 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  position: relative;
+  padding-top: 150px;
+}
+.screenshot {
+  width: 70%;
+  border-radius: 20px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.downloadLink img {
+  width: 40px;
+  height: 4 0px;
+}
+.downloadLink {
+  display: inline-block;
+  margin-right: 20px;
+}
+.downloadLink:last-child {
+  margin-right: 0px;
+}
+.downloadSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  width: 250px;
+  border-radius: 50px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+.para1 {
+  font-size: 12px;
+  color: #777;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.para1 a {
+  color: #e94057;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .bgText {
+    display: none;
+  }
+  /* .screenshot {
+    display: none;
+  } */
+}
+@media only screen and (min-width: 1640px) {
+  .container {
+    align-items: center;
+    justify-content: center;
+  }
+}

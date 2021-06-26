@@ -1,0 +1,30 @@
+.text-center {
+  text-align: center;
+}
+h2{
+    font-size: 40px;
+}
+h1{
+    font-size: 55px;
+}
+
+.text-color__primary-gradient {
+  background: linear-gradient(to left, #7f00ff, #e100ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.font-size-20{
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width:  500px) {
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 30;
+    }
+}

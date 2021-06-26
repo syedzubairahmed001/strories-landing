@@ -1,0 +1,38 @@
+.container {
+  width: 100%;
+  min-height: 200px;
+  background: linear-gradient(to left, #7f00ff, #e100ff);
+  position: relative;
+}
+
+.showcaseImage {
+  background-image: url("/assets/images/featured_images/profile_showcase.png");
+  width: 50%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+
+.downloadLink img {
+  width: 40px;
+  height: 4 0px;
+}
+.downloadLink {
+  display: inline-block;
+  margin-right: 20px;
+}
+.downloadLink:last-child {
+  margin-right: 0px;
+}
+.downloadSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  width: 250px;
+  border-radius: 50px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
