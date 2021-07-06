@@ -8,7 +8,7 @@ const DownloadSection = (props) => {
     <div className={`${styles.container}`}>
       <div className={`flex flex-center flex-column p-30`}>
         <h2 className="text-color--dark-1 text-center text-color--light-1  mb-10">
-          Experience a new way to connect people.
+          Experience a new way to connect with people.
         </h2>
         <div className={`${styles.downloadSection} mb-10`}>
           <p className="font-size-20 mr-10 text-color--dark-1">Install on</p>

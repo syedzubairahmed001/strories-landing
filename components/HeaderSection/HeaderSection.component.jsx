@@ -9,7 +9,11 @@ const HeaderSection = (props) => {
         <div>
           <h1 className={`text-center text-color__primary-gradient`}>
             Your favorite Stories feature <br></br> now in Browsers!{" "}
-            <img src="/assets/images/emojis/shocked_emoji.png" alt="party_emote" className="w-40px" />
+            <img
+              src="/assets/images/emojis/shocked_emoji.png"
+              alt="party_emote"
+              className="w-40px"
+            />
           </h1>
 
           {/* <div>
@@ -44,6 +48,20 @@ const HeaderSection = (props) => {
             </a>
           </div>
         </div>
+
+        <a
+          href="https://www.producthunt.com/posts/browser-stories?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-browser-stories"
+          target="_blank"
+        >
+          <img
+            src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=303181&theme=light"
+            alt="Browser Stories - Your favorite Stories feature now in Browsers! | Product Hunt"
+            style={{ width: "250px", height: "54px" }}
+            width="250px"
+            height="54px"
+          />
+        </a>
+        <br />
         <img
           src="/assets/images/featured_images/browser_layout.jpg"
           alt="screenshot"
