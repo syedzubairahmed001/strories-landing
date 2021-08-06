@@ -48,7 +48,11 @@ const HeaderSection = (props) => {
             </a>
           </div>
         </div>
-
+        <div className="mb-10">
+          <a href="https://forms.gle/J8B69p8ee9iKadMp9" className="btn-primary" target="_blank">
+            Enter The Giveaway
+          </a>
+        </div>
         <a
           href="https://www.producthunt.com/posts/browser-stories?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-browser-stories"
           target="_blank"
